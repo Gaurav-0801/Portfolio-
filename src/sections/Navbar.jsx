@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { motion } from "motion/react";
-function Navigation() {
+
+const Navbar = () => {
+  function Navigation() {
   return (
     <ul className="nav-ul">
       <li className="nav-li">
@@ -26,7 +28,6 @@ function Navigation() {
     </ul>
   );
 }
-const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="fixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40">
@@ -69,5 +70,6 @@ const Navbar = () => {
     </div>
   );
 };
+
 
 export default Navbar;
