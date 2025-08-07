@@ -198,6 +198,50 @@ export const myProjects = [
       },
     ],
   }, 
+  {
+  id: 6,
+  title: "ChatGPT Clone (Mobile-first)",
+  description:
+    "A mobile-optimized AI chat and image generation app using tRPC, Supabase, and OpenAI APIs with secure Auth0 authentication.",
+  subDescription: [
+    "Built with Next.js App Router and Bootstrap for a responsive mobile UI.",
+    "Integrated Auth0 for secure authentication and user session management.",
+    "Used Supabase as the database with Row Level Security enabled.",
+    "Implemented tRPC with TanStack React Query for type-safe API calls.",
+    "Integrated OpenAI and Google Gemini APIs for chat and image responses.",
+  ],
+  href: "https://sample-six-inky.vercel.app",  
+  logo: "", 
+  image: "/assets/projects/chatgpt-clone.jpg",  // replace with actual image path
+  tags: [
+    {
+      id: 1,
+      name: "Next.js",
+      path: "/assets/logos/nextjs.svg",
+    },
+    {
+      id: 2,
+      name: "tRPC",
+      path: "/assets/logos/trpc.svg",
+    },
+    {
+      id: 3,
+      name: "Supabase",
+      path: "/assets/logos/supabase.svg",
+    },
+    {
+      id: 4,
+      name: "OpenAI",
+      path: "/assets/logos/openai.svg",
+    },
+    {
+      id: 5,
+      name: "Auth0",
+      path: "/assets/logos/auth0.svg",
+    },
+  ],
+}
+
 ]; 
 
 export const mySocials = [
