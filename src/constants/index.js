@@ -295,6 +295,50 @@ export const experiences = [
       "Learned responsive design with Bootstrap and API development.",
     ],
   },
+  {
+  id: 7,
+  title: "LinkedConnect – LinkedIn Clone",
+  description:
+    "A professional community platform for connecting users through profiles, posts, likes, comments, and shares.",
+  subDescription: [
+    "Built using Next.js for the frontend and Node.js with Express for the backend API.",
+    "Integrated PostgreSQL with Prisma ORM for efficient and scalable database management.",
+    "Implemented NextAuth for secure and seamless user authentication.",
+    "Added core social features: create posts, like, comment, and share content.",
+    "Deployed on Vercel and Render for frontend and backend respectively.",
+  ],
+  href: "https://linked-connect.vercel.app",  
+  logo: "",
+  image: "/assets/projects/linked-connect.jpg",  
+  tags: [
+    {
+      id: 1,
+      name: "Next.js",
+      path: "/assets/logos/nextjs.svg",
+    },
+    {
+      id: 2,
+      name: "Node.js",
+      path: "/assets/logos/nodejs.svg",
+    },
+    {
+      id: 3,
+      name: "PostgreSQL",
+      path: "/assets/logos/postgresql.svg",
+    },
+    {
+      id: 4,
+      name: "Prisma",
+      path: "/assets/logos/prisma.svg",
+    },
+    {
+      id: 5,
+      name: "NextAuth",
+      path: "/assets/logos/nextauth.svg",
+    },
+  ],
+}
+
 ];
 
 export const reviews = [
