@@ -158,6 +158,11 @@ export const myProjects = [
       name: "PostgreSQL",
       path: "/assets/logos/postgresql.svg",
     },
+    {
+      id: 6,
+      name: "Next.js",
+      path: "/assets/logos/nextjs.svg",
+    },
   ],
 }
 ,
