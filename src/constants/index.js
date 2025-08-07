@@ -208,11 +208,11 @@ export const myProjects = [
     "Integrated Auth0 for secure authentication and user session management.",
     "Used Supabase as the database with Row Level Security enabled.",
     "Implemented tRPC with TanStack React Query for type-safe API calls.",
-    "Integrated OpenAI and Google Gemini APIs for chat and image responses.",
+    "Integrated OpenAI and Fal AI APIs for chat and image responses.",
   ],
   href: "https://sample-six-inky.vercel.app",  
   logo: "", 
-  image: "/assets/projects/chatgpt-clone.jpg",  // replace with actual image path
+  image: "/assets/projects/chatgpt-clone.jpg",  
   tags: [
     {
       id: 1,
@@ -232,7 +232,7 @@ export const myProjects = [
     {
       id: 4,
       name: "OpenAI",
-      path: "/assets/logos/openai.svg",
+      path: "/assets/logos/chatgpt.svg",
     },
     {
       id: 5,
