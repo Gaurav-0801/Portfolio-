@@ -97,7 +97,7 @@ export const myProjects = [
     "Real-time collaboration via WebSockets with presence and conflict-free syncing.",
     "Persistent storage (autosave) with localStorage and optional cloud sync; styled with Tailwind CSS."
   ],
-  href: "#",
+  href: "https://excalidraw-web-nine.vercel.app/",
   logo: "",
   image: "/assets/projects/excalidraw.jpg",
   tags: [
