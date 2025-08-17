@@ -87,27 +87,28 @@ export const myProjects = [
     ],
   },
   {
-    id: 5,
-    title: "Full Stack ToDo App",
-    description:
-      "A task management web app with authentication, CRUD operations, and persistent database storage.",
-    subDescription: [
-      "Built using React for the frontend and Node.js with Express for the backend.",
-      "Integrated Prisma ORM with PostgreSQL for reliable database management.",
-      "Implemented JWT-based authentication and protected API routes.",
-      "Used Tailwind CSS for responsive design and modern UI components.",
-    ],
-    href: "https://todo-app-eight-blue-28.vercel.app",
-    logo: "",
-    image: "/assets/projects/todo-app.jpg",
-    tags: [
-      { id: 1, name: "React", path: "/assets/logos/react.svg" },
-      { id: 2, name: "Node.js", path: "/assets/logos/nodejs.svg" },
-      { id: 3, name: "PostgreSQL", path: "/assets/logos/postgresql.svg" },
-      { id: 4, name: "Prisma", path: "/assets/logos/prisma.svg" },
-    ],
-  },
-  {
+  id: 5,
+  title: "Excalidraw Whiteboard",
+  description:
+    "A collaborative, browser-based whiteboard for sketching diagrams with real-time multiplayer, export, and offline support.",
+  subDescription: [
+    "Built with Next.js, React, and TypeScript for a fast, scalable frontend.",
+    "Canvas tools: freehand, shapes, text, selection, layers, and undo/redo.",
+    "Real-time collaboration via WebSockets with presence and conflict-free syncing.",
+    "Persistent storage (autosave) with localStorage and optional cloud sync; styled with Tailwind CSS."
+  ],
+  href: "#",
+  logo: "",
+  image: "/assets/projects/excalidraw.jpg",
+  tags: [
+    { id: 1, name: "React", path: "/assets/logos/react.svg" },
+    { id: 2, name: "Next.js", path: "/assets/logos/nextjs.svg" },
+    { id: 3, name: "TypeScript", path: "/assets/logos/typescript.svg" },
+    { id: 4, name: "Tailwind CSS", path: "/assets/logos/tailwindcss.svg" },
+    { id: 5, name: "WebSockets", path: "/assets/logos/websocket.svg" }
+  ]
+},
+{
     id: 6,
     title: "ChatGPT Clone (Mobile-first)",
     description:
