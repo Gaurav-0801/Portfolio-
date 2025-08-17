@@ -201,7 +201,7 @@ export const experiences = [
       "Learned responsive design with Bootstrap and API development.",
     ],
   }
-]; // ✅ Semicolon added to properly close the array
+]; 
 
 export const reviews = [
   {
