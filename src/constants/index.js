@@ -167,14 +167,14 @@ export const myProjects = [
     "Added features like search, booking, payment integration, and travel history.",
     "Deployed on Vercel for frontend and Render for backend services."
   ],
-  href: "https://travelbooker.vercel.app",
+  href: "https://travel-looker.vercel.app/",
   logo: "",
   image: "/assets/projects/travelbooker.jpg",
   tags: [
     { id: 1, name: "Next.js", path: "/assets/logos/nextjs.svg" },
     { id: 2, name: "Django REST Framework", path: "/assets/logos/django.svg" },
     { id: 3, name: "PostgreSQL", path: "/assets/logos/postgresql.svg" },
-    { id: 4, name: "Tailwind CSS", path: "/assets/logos/tailwind.svg" },
+    { id: 4, name: "Tailwind CSS", path: "/assets/logos/tailwindcss.svg" },
     { id: 5, name: "JWT Auth", path: "/assets/logos/jwt.svg" },
   ],
 },
