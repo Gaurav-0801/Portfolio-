@@ -154,6 +154,31 @@ export const myProjects = [
       { id: 5, name: "NextAuth", path: "/assets/logos/nextauth.svg" },
     ],
   },
+  {
+  id: 8,
+  title: "TravelBooker – Online Travel Platform",
+  description:
+    "A modern travel booking website that enables users to search, compare, and book travel options seamlessly with real-time availability.",
+  subDescription: [
+    "Developed using Next.js for the frontend with a responsive and intuitive UI.",
+    "Built backend APIs with Django REST Framework for handling bookings, payments, and authentication.",
+    "Integrated PostgreSQL for storing users, travel options, and booking records.",
+    "Implemented secure user authentication with JWT and session management.",
+    "Added features like search, booking, payment integration, and travel history.",
+    "Deployed on Vercel for frontend and Render for backend services."
+  ],
+  href: "https://travelbooker.vercel.app",
+  logo: "",
+  image: "/assets/projects/travelbooker.jpg",
+  tags: [
+    { id: 1, name: "Next.js", path: "/assets/logos/nextjs.svg" },
+    { id: 2, name: "Django REST Framework", path: "/assets/logos/django.svg" },
+    { id: 3, name: "PostgreSQL", path: "/assets/logos/postgresql.svg" },
+    { id: 4, name: "Tailwind CSS", path: "/assets/logos/tailwind.svg" },
+    { id: 5, name: "JWT Auth", path: "/assets/logos/jwt.svg" },
+  ],
+},
+
 ];
 
 export const mySocials = [
